@@ -1,0 +1,188 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	padding: 30px;
+	background-color: black;
+}
+
+p  {
+	text-align: center;
+}
+
+h1 {
+	letter-spacing: 12px;
+	font-size: 32px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+	/*opacity: 0.8;*/
+	background: black;
+	color: white;
+}
+h1 span {
+	font-size: 16px;
+	vertical-align: top;
+	margin: 0;
+	letter-spacing: 5px;
+	margin-left: -7px;
+	line-height: 30px;
+}
+h2 {
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	margin: 0;
+	/*opacity: 0.8;*/
+	background: black;
+}
+h3 {
+	font-size: 32px;
+	font-weight: normal;
+	text-align: center;
+	margin: 20px 0 0 0;
+	/*opacity: 0.8;*/
+	background: black;
+	color: white;
+	
+}
+
+h4 {
+	font-size: 60px;
+	font-family: 'Jim Nightshade', cursive;	
+	margin: 50px 0 0 0;
+	opacity: 0.8;
+}
+
+#page {
+	background: white;
+	width: 640px;
+	height: 570px;
+	margin: 0 auto;
+	padding: 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-shadow: 5px 5px 6px #333;
+}
+
+#insults {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	/*border-top: 1px solid #999;
+	border-bottom: 1px solid #999;*/
+	padding: 15px 0 20px 0;
+	margin: 20px 0 0 0;
+}
+
+ul {
+	position: relative;
+	top: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+	width: 50%;
+	height: 60px;
+	font-size: 30px;
+	letter-spacing: -3px;
+	float: left;
+}
+ul li {
+	margin-right: 20px;
+}
+
+/*#adjs li {
+	border-right: 1px solid #ccc;	
+}*/
+#nouns {
+	float: left;
+	margin-left: -1px;
+}
+
+#buttons {
+	width: 100%;
+	position: relative;
+}
+button:before {
+	content: "";
+	background: black;	
+	height: 130px;
+	margin: 0 auto;
+	position: absolute;
+	opacity: .5;
+	width: 100%;;
+	top: 0;
+	left: 0;
+	
+}
+button:hover {
+	opacity: 2;
+	text-decoration: underline;
+	}
+button {
+	height: 130px;
+	width: 182px;
+	display: block;
+	background-color: transparent;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+	padding: 23px;
+	margin: 50px auto 0 auto;
+	font-family: 'Ubuntu', sans-serif;
+	opacity: .8;
+}
+
+#social {
+	position: relative;
+	top: 15px;
+	z-index: 10;
+}
+
+#social:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#social-options {
+	display: none;
+	box-shadow: 2px 2px 2px #333;
+}
+
+#social-options.active {
+	display: block;
+	position: absolute;
+	background-color: rgba(255, 255, 255, .8);
+	padding: 10px 10px 5px 10px;
+	margin-top: 10px;
+}
+
+#social-options #buttons {
+	width: 175px;
+}
+#social-options #buttons div {
+	float: left;
+	margin-right: 10px;
+}
+
+#social-options #buttons div:last-child {
+	margin-right: 0;
+}
+
+#links {
+	width: 175px;	
+}
+#links a {
+	display: block;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	float: left;
+}
+#links a:hover {
+	text-decoration: underline;
+}
+
+#credits {
+	margin-top: 60px;
+	font-size: 15px;
+	text-align: center;
+}
